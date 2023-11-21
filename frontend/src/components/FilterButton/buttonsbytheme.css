@@ -1,0 +1,30 @@
+.btn_block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn_theme {
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: black;
+    color: aliceblue;
+    border-style: none;
+    box-shadow: none;
+    font-family: 'Inter Tight',
+        sans-serif;
+    font-size: .7rem;
+    line-height: 1.3;
+    border-width: 2px;
+    font-weight: 900;
+    font-style: normal;
+    padding: 1.25rem 2rem;
+    margin: .6rem .6rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+}
+
+.btn_theme:hover {
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+}

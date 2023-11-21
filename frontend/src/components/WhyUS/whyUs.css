@@ -1,0 +1,51 @@
+.Why-us {
+    padding: 4rem 16rem;
+}
+
+.why-text {
+    text-align: center;
+    font-family: 'Inter Tight',
+        sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.why-card {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.stickers {
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 32px;
+}
+
+.text-wrap {
+    padding-left: 2rem;
+    font-family: 'Inter Tight',
+        sans-serif;
+}
+
+/*   Mobile Version  */
+
+@media screen and (max-width: 450px) {
+    .Why-us {
+        padding: 0;
+        margin: auto;
+    }
+
+    .why-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+}

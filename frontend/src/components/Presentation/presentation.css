@@ -1,0 +1,123 @@
+.text-title,
+.text-presentation {
+    text-align: center;
+    font-family: 'Inter Tight',
+        sans-serif;
+}
+
+.text-title {
+    font-size: 4rem;
+    padding-top: 60px;
+}
+
+.text-presentation {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.images {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.start-image {
+    width: 436px;
+    height: 327px;
+    border-radius: 40px;
+}
+
+.mid-image {
+    width: 436px;
+    height: 654px;
+    border-radius: 40px;
+}
+
+.end-image {
+    width: 436px;
+    height: 545px;
+    border-radius: 40px;
+}
+
+.start {
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: black;
+    color: aliceblue;
+    border-style: none;
+    box-shadow: none;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    border-width: 2px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 1.25rem 2rem;
+    margin: .6rem .6rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+}
+
+.start:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+/*   Mobile Version  */
+
+@media screen and (max-width: 450px) {
+
+    .images {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .start-image {
+        width: 218px;
+        height: 140px;
+        border-radius: 40px;
+    }
+
+    .mid-image {
+        width: 218px;
+        height: 312px;
+        border-radius: 40px;
+    }
+
+    .end-image {
+        width: 218px;
+        height: 200px;
+        border-radius: 40px;
+    }
+
+    .start {
+        text-decoration: none;
+        border-radius: 100px;
+        background-color: black;
+        color: aliceblue;
+        border-style: none;
+        box-shadow: none;
+        font-family: 'Inter Tight',
+            sans-serif;
+        font-size: 1rem;
+        line-height: 1.3;
+        border-width: 2px;
+        font-style: normal;
+        padding: .75rem 2rem;
+        margin: .6rem 1rem;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    }
+
+}

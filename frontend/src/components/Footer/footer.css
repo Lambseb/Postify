@@ -1,0 +1,78 @@
+.footer {
+    background-color: #757b62;
+    text-align: center;
+    color: #faf0dc;
+}
+
+.footer-title {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 400;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.social {
+    padding: 1rem;
+    transition: 1s;
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+}
+
+.social a:hover {
+    transition: 1s;
+    filter: invert(1);
+}
+
+.social-link {
+    padding: 0 1.2rem;
+}
+
+.team {
+    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding: 0 7rem;
+}
+
+.copyright {
+    padding: 0;
+    margin: 0;
+}
+
+.crew {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+/*   Mobile Version  */
+
+@media screen and (max-width: 450px) {
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    .team {
+        padding: 0;
+    }
+
+    .social {
+        padding: 0.3rem;
+    }
+
+    .social img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .copyright,
+    .crew {
+        font-size: 0.9rem;
+    }
+}

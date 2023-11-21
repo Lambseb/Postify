@@ -1,0 +1,181 @@
+.input-color {
+    width: 100px;
+    height: 70px;
+    text-decoration: none;
+    border-radius: 100px;
+    border-style: none;
+    box-shadow: none;
+    border-width: 20px;
+    padding: 1.25rem 2rem;
+    margin: .6rem .6rem;
+}
+
+.input-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modify-font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-size {
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: black;
+    color: aliceblue;
+    border-style: none;
+    box-shadow: none;
+    font-family: 'Inter Tight',
+        sans-serif;
+    font-size: 1rem;
+    line-height: 1.3;
+    border-width: 2px;
+    font-style: normal;
+    padding: 1.25rem 2rem;
+    margin: .6rem 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+}
+
+.selection {
+    text-align: center;
+}
+
+.select-font {
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+select:hover {
+    border-color: #999;
+}
+
+select:focus {
+    border-color: black;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}
+
+.font-list {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Inter Tight',
+        sans-serif;
+}
+
+
+
+.gen-card {
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-card,
+.picture-card {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+.share-buttons {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.share {
+    padding: .6rem;
+    height: 70px;
+}
+
+/*   Mobile Version  */
+
+@media screen and (max-width: 450px) {
+
+    .text-card,
+    .picture-card {
+        width: 12rem;
+        height: 20rem;
+        border-radius: 10px;
+    }
+
+    .share-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 .2rem;
+    }
+
+    .share {
+        padding: 0 .6rem;
+    }
+
+    .font-size {
+        text-decoration: none;
+        border-radius: 100px;
+        background-color: black;
+        color: aliceblue;
+        border-style: none;
+        box-shadow: none;
+        font-family: 'Inter Tight',
+            sans-serif;
+        font-size: .5rem;
+        line-height: 1.3;
+        border-width: 2px;
+        font-style: normal;
+        padding: .75rem 1rem;
+        margin: .6rem 1rem;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    }
+
+    select {
+        padding: 5px;
+        font-size: 8px;
+        border: 1px solid aliceblue;
+        border-radius: 5px;
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .input-color {
+        width: 100px;
+        height: 70px;
+        text-decoration: none;
+        border-radius: 100px;
+        border-style: none;
+        box-shadow: none;
+        border-width: 20px;
+        padding: .75rem 1rem;
+        margin: .6rem .6rem;
+    }
+
+    .selection {
+        text-align: center;
+        font-size: small;
+    }
+
+    .input-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
